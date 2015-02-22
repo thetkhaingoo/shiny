@@ -1,0 +1,25 @@
+---
+title: "Documentation for Temperature Converter"
+author: "Thet K. Oo"
+date: "Saturday, February 21, 2015"
+output: html_document
+---
+
+This application is built for "Developing Data Product course" offered by "Johns Hopkins Bloomberg School of Public Health" on Coursera." The app is built with Shiny in R-Studio and hosted on Shiny.io site. Basically, this application helps users convert Fahrenheit to Celsius and vise versa.   
+
+To convert degree from Fahrenheit to Celsius, the user need to type in the degree (just the number not sympol or any other character) to the box below "Please enter Fahrenheit:" and the app will convert and display the Celsius scale degree below.  
+
+Similarly, to convert from Celsius to Fahrenheit, the user can use the "Please enter Celsius :" box.
+
+This application uses R programming to do the conversion.  For example, to convert from 40 degree Fahrenheit,
+
+
+```{r}
+fdegree <- 40
+cdegree <- (fdegree - 32) * 5/9
+cdegree
+
+```
+
+
+Thank you for using our shiny app.
